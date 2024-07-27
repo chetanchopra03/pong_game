@@ -144,3 +144,13 @@ while True:
 # git add .
 # git commit -m "Remove ignored files from repository"
 # git push origin master
+# git rm .gitignore
+# git commit -m "remove .gitignore from repository"
+# git push origin master
+
+# push new changes
+# git status
+# git add . # to add all files
+# git add [file name]
+# git commit -m "update to code"
+# git push origin master
