@@ -1,3 +1,5 @@
+# Beginning of python learning
+
 import turtle
 import os
 
@@ -9,6 +11,7 @@ screen.setup(width=800, height=600)
 screen.tracer(0)
 
 # Player A
+player_a = turtle.Turtle()
 player_a = turtle.Turtle()
 player_a.speed(0)
 player_a.shape("square")
@@ -129,3 +132,15 @@ while True:
         ball.setx(-340)
         ball.dx *= -1  # type: ignore
         os.system("aplay bounce.wav&")
+
+# git init
+# git add .
+# git commit -m "Initial commit"
+# git remote add origin https://github.com/chetanchopra03/pong_game.git
+# git add .gitignore
+# git push -u origin master
+# To remove the already uploaded files on github repository
+# git rm -r --cached
+# git add .
+# git commit -m "Remove ignored files from repository"
+# git push origin master
