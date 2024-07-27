@@ -1,7 +1,0 @@
-# Compiler files
-__pycache__/
-*.pyc
-
-myenv/
-
-.vscode/
